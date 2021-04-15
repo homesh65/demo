@@ -8,7 +8,7 @@ https://docs.djangoproject.com/en/3.0/howto/deployment/wsgi/
 """
 
 import os
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "gram.settings")
+#os.environ.setdefault("DJANGO_SETTINGS_MODULE", "gram.settings")
 
 # This application object is used by the development server
 # as well as any WSGI server configured to use this file.
