@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>
+            home
+        </title>
+    </head>
+    <body>
+        <center>
+            <h3>Enter your text</h3>
+            <form action="/res" method="POST">
+                {% csrf_token %}
+                <textarea  rows="4" name="txt"></textarea>
+                </textarea><br><br>
+                <button type="submit">submit</button>
+            </form>
+        </center>
+        <br>
+        <center>
+            <div>
+                {% if txt %}
+                    Input is: <b>{{inp}}</b>
+                    <br>
+                    Result is: <b>{{txt}}</b>
+                {% endif %}
+            </div>
+        </center>
+    </body>
+</html>
+
