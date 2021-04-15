@@ -68,7 +68,6 @@ pytube==9.6.0
 PyTweening==1.0.3
 pytz==2020.5
 pywhatkit==3.9
-pywin32==228
 pywinpty==0.5.7
 pyzmq==19.0.2
 regex==2021.4.4
